@@ -186,13 +186,13 @@ def build_show_response(options):
 def build_speechlet_response(response, reprompt, shouldEndSession, card_title=None, card_text=None, directive=None):
 	base_response = {
 		'outputSpeech': {
-			'type': 'PlainText',
-			'text': response
+			'type': 'SSML',
+			'ssml': "<speak>" + response + "</speak>"
 		},
 		'reprompt': {
 			'outputSpeech': {
-				'type': 'PlainText',
-				'text': reprompt
+				'type': 'SSML',
+				'ssml': "<speak>" + reprompt + "</speak>"
 			}
 		},
 		'shouldEndSession': shouldEndSession
