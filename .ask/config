@@ -5,9 +5,8 @@
       "resources": {
         "lambda": [
           {
-            "codeUri": "lambda/custom",
             "alexaUsage": [
-              "custom/default"
+              "custom/us-east-1"
             ],
             "runtime": "python3.6",
             "handler": "skill.handler"
