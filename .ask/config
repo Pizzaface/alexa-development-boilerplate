@@ -4,13 +4,14 @@
       "skill_id": "",
       "resources": {
         "lambda": [
-          {
-            "alexaUsage": [
-              "custom/us-east-1"
-            ],
+         {
             "awsRegion": "us-east-1",
-            "runtime": "python3.6",
-            "handler": "skill.handler"
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "codeUri": "lambda/custom",
+            "handler": "skill.lambda_handler",
+            "runtime": "python3.6"
           }
         ]
       },
