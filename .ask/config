@@ -2,26 +2,20 @@
   "deploy_settings": {
     "default": {
       "skill_id": "",
-      "was_cloned": false,
       "resources": {
         "lambda": [
           {
+            "functionName": "",
+            "alexaUsage": [
+              "custom/default"
+            ],
             "runtime": "python3.6",
             "handler": "skill.handler"
           }
         ]
       },
-      "merge": {
-        "manifest": {
-          "apis": {
-            "custom": {
-              "endpoint": {
-                "uri": "alexaNewSkill-custom"
-              }
-            }
-          }
-        }
-      }
+      "was_cloned": false,
+      "merge": {}
     }
   }
 }
