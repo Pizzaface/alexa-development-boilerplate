@@ -3,6 +3,14 @@
     "default": {
       "skill_id": "",
       "was_cloned": false,
+      "resources": {
+        "lambda": [
+          {
+            "runtime": "python3.6",
+            "handler": "skill.handler"
+          }
+        ]
+      },
       "merge": {
         "manifest": {
           "apis": {
