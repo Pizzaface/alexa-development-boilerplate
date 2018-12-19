@@ -8,6 +8,7 @@
             "alexaUsage": [
               "custom/us-east-1"
             ],
+            "awsRegion": "us-east-1",
             "runtime": "python3.6",
             "handler": "skill.handler"
           }
