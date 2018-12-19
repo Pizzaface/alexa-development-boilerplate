@@ -6,6 +6,9 @@
         "lambda": [
           {
             "codeUri": "lambda/custom",
+            "alexaUsage": [
+              "custom/default"
+            ],
             "runtime": "python3.6",
             "handler": "skill.handler"
           }
