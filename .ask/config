@@ -5,6 +5,7 @@
       "resources": {
         "lambda": [
           {
+            "functionName": "<<SKILLFUNCTION>>",
             "runtime": "python3.6",
             "handler": "skill.handler"
           }
