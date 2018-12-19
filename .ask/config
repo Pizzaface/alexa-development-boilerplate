@@ -7,7 +7,7 @@
           {
             "functionName": "",
             "alexaUsage": [
-              "custom/default"
+              "lambda/custom"
             ],
             "runtime": "python3.6",
             "handler": "skill.handler"
